@@ -1,0 +1,150 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="100%" height="100%" fill="none">
+  <defs>
+    <linearGradient id="bg-light" x1="0" y1="0" x2="1200" y2="320" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#F8FAFC" />
+      <stop offset="55%" stop-color="#F1F5F9" />
+      <stop offset="100%" stop-color="#E2E8F0" />
+    </linearGradient>
+    <linearGradient id="border-light" x1="0" y1="0" x2="1200" y2="320" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#CBD5E1" />
+      <stop offset="50%" stop-color="#94A3B8" />
+      <stop offset="100%" stop-color="#CBD5E1" />
+    </linearGradient>
+    <linearGradient id="accent-blue" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0284C7" />
+      <stop offset="100%" stop-color="#4F46E5" />
+    </linearGradient>
+    <linearGradient id="glow-light" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0284C7" stop-opacity="0.07" />
+      <stop offset="100%" stop-color="#0284C7" stop-opacity="0" />
+    </linearGradient>
+    <pattern id="grid-light" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#CBD5E1" stroke-width="0.75" stroke-opacity="0.7" />
+    </pattern>
+    <pattern id="dots-light" width="16" height="16" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="0.8" fill="#94A3B8" fill-opacity="0.5" />
+    </pattern>
+  </defs>
+
+  <!-- Main Card Background -->
+  <rect x="2" y="2" width="1196" height="316" rx="14" fill="url(#bg-light)" stroke="url(#border-light)" stroke-width="2" />
+  <rect x="2" y="2" width="1196" height="316" rx="14" fill="url(#grid-light)" />
+  <rect x="680" y="2" width="518" height="316" rx="14" fill="url(#dots-light)" />
+
+  <!-- Top Glow Bar -->
+  <rect x="2" y="2" width="1196" height="90" rx="14" fill="url(#glow-light)" />
+
+  <!-- Top Terminal Chrome Bar -->
+  <path d="M 2 16 Q 2 2 16 2 L 1184 2 Q 1198 2 1198 16 L 1198 44 L 2 44 Z" fill="#E2E8F0" fill-opacity="0.9" />
+  <line x1="2" y1="44" x2="1198" y2="44" stroke="#CBD5E1" stroke-width="1.5" />
+
+  <!-- Window Controls -->
+  <circle cx="28" cy="23" r="5.5" fill="#EF4444" />
+  <circle cx="46" cy="23" r="5.5" fill="#F59E0B" />
+  <circle cx="64" cy="23" r="5.5" fill="#10B981" />
+
+  <!-- Terminal Path Title -->
+  <text x="90" y="27" fill="#475569" font-family="'JetBrains Mono', 'Fira Code', 'SFMono-Regular', Consolas, monospace" font-size="12" font-weight="600" letter-spacing="0.5">
+    muhammadhardiansyah@systems-node: ~/architecture/runtime.py
+  </text>
+
+  <!-- Status Pill Right -->
+  <rect x="1034" y="12" width="142" height="22" rx="11" fill="#D1FAE5" stroke="#059669" stroke-width="1" />
+  <circle cx="1049" cy="23" r="3.5" fill="#059669" />
+  <text x="1061" y="27" fill="#065F46" font-family="'JetBrains Mono', 'Fira Code', 'SFMono-Regular', Consolas, monospace" font-size="10.5" font-weight="700" letter-spacing="0.8">
+    SYS.ONLINE // v3.12
+  </text>
+
+  <!-- Left Content Area -->
+  <!-- Eyebrow Tag -->
+  <rect x="56" y="72" width="8" height="16" rx="2" fill="#0284C7" />
+  <text x="74" y="84" fill="#0284C7" font-family="'JetBrains Mono', 'Fira Code', 'SFMono-Regular', Consolas, monospace" font-size="12.5" font-weight="700" letter-spacing="2">
+    BACKEND ENGINEERING &amp; SYSTEMS ARCHITECTURE
+  </text>
+
+  <!-- Main Name -->
+  <text x="56" y="138" fill="#0F172A" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="42" font-weight="800" letter-spacing="-0.5">
+    Muhammad Hardiansyah
+  </text>
+
+  <!-- Role Subtitle -->
+  <text x="56" y="174" fill="#334155" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="19" font-weight="600">
+    Backend Developer <tspan fill="#94A3B8">•</tspan> Software Engineer <tspan fill="#94A3B8">•</tspan> <tspan fill="#0F172A">Coding Educator</tspan>
+  </text>
+
+  <!-- Accent Divider -->
+  <rect x="56" y="196" width="540" height="1.5" fill="#CBD5E1" />
+  <rect x="56" y="196" width="140" height="2.5" fill="url(#accent-blue)" />
+
+  <!-- Core Domains Pills -->
+  <g transform="translate(56, 218)">
+    <rect x="0" y="0" width="148" height="30" rx="6" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.2" />
+    <text x="14" y="19" fill="#0F172A" font-family="'JetBrains Mono', 'Fira Code', 'SFMono-Regular', Consolas, monospace" font-size="12" font-weight="600">
+      <tspan fill="#0284C7">&gt;</tspan> Scalable APIs
+    </text>
+
+    <rect x="160" y="0" width="186" height="30" rx="6" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.2" />
+    <text x="174" y="19" fill="#0F172A" font-family="'JetBrains Mono', 'Fira Code', 'SFMono-Regular', Consolas, monospace" font-size="12" font-weight="600">
+      <tspan fill="#4F46E5">#</tspan> Database Modeling
+    </text>
+
+    <rect x="358" y="0" width="182" height="30" rx="6" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.2" />
+    <text x="372" y="19" fill="#0F172A" font-family="'JetBrains Mono', 'Fira Code', 'SFMono-Regular', Consolas, monospace" font-size="12" font-weight="600">
+      <tspan fill="#059669">$</tspan> Python &amp; TypeScript
+    </text>
+  </g>
+
+  <!-- Bottom Telemetry Line -->
+  <text x="56" y="282" fill="#475569" font-family="'JetBrains Mono', 'Fira Code', 'SFMono-Regular', Consolas, monospace" font-size="11.5" font-weight="500">
+    [FOCUS]: Clean Architecture  |  Idempotent Workflows  |  Query Optimization  |  Technical Mentorship
+  </text>
+
+  <!-- Right Side: Systems Architecture Blueprint Diagram -->
+  <g transform="translate(720, 68)">
+    <!-- Blueprint Panel Frame -->
+    <rect x="0" y="0" width="432" height="220" rx="10" fill="#FFFFFF" fill-opacity="0.9" stroke="#CBD5E1" stroke-width="1.5" />
+    <text x="16" y="24" fill="#64748B" font-family="'JetBrains Mono', 'Fira Code', 'SFMono-Regular', Consolas, monospace" font-size="10.5" font-weight="700" letter-spacing="1">
+      // SYSTEM TOPOLOGY BLUEPRINT
+    </text>
+
+    <!-- Node 1: API Gateway -->
+    <rect x="20" y="46" width="118" height="54" rx="6" fill="#F8FAFC" stroke="#0284C7" stroke-width="1.5" />
+    <text x="32" y="67" fill="#0369A1" font-family="'JetBrains Mono', 'Fira Code', 'SFMono-Regular', Consolas, monospace" font-size="11" font-weight="700">API GATEWAY</text>
+    <text x="32" y="85" fill="#475569" font-family="'JetBrains Mono', 'Fira Code', 'SFMono-Regular', Consolas, monospace" font-size="10">REST / Auth / TLS</text>
+
+    <!-- Node 2: Worker / Runtime -->
+    <rect x="20" y="124" width="118" height="54" rx="6" fill="#F8FAFC" stroke="#4F46E5" stroke-width="1.5" />
+    <text x="32" y="145" fill="#4338CA" font-family="'JetBrains Mono', 'Fira Code', 'SFMono-Regular', Consolas, monospace" font-size="11" font-weight="700">CORE ENGINE</text>
+    <text x="32" y="163" fill="#475569" font-family="'JetBrains Mono', 'Fira Code', 'SFMono-Regular', Consolas, monospace" font-size="10">Python / TS / Go</text>
+
+    <!-- Connector Lines -->
+    <path d="M 138 73 L 176 73 L 176 112 L 194 112" stroke="#0284C7" stroke-width="1.5" stroke-dasharray="3 3" />
+    <path d="M 138 151 L 176 151 L 176 112 L 194 112" stroke="#4F46E5" stroke-width="1.5" />
+    <circle cx="176" cy="112" r="3.5" fill="#0284C7" />
+
+    <!-- Central Node: Service Layer -->
+    <rect x="194" y="82" width="104" height="60" rx="6" fill="#F1F5F9" stroke="#64748B" stroke-width="1.5" />
+    <text x="208" y="106" fill="#0F172A" font-family="'JetBrains Mono', 'Fira Code', 'SFMono-Regular', Consolas, monospace" font-size="11" font-weight="700">DOMAIN SVC</text>
+    <text x="208" y="124" fill="#475569" font-family="'JetBrains Mono', 'Fira Code', 'SFMono-Regular', Consolas, monospace" font-size="9.5">ACID / Idempotent</text>
+
+    <!-- Connector to Data Stores -->
+    <path d="M 298 100 L 326 68" stroke="#059669" stroke-width="1.5" />
+    <path d="M 298 124 L 326 154" stroke="#D97706" stroke-width="1.5" stroke-dasharray="3 3" />
+
+    <!-- Node 3: PostgreSQL -->
+    <rect x="326" y="44" width="88" height="50" rx="6" fill="#F8FAFC" stroke="#059669" stroke-width="1.5" />
+    <text x="338" y="65" fill="#047857" font-family="'JetBrains Mono', 'Fira Code', 'SFMono-Regular', Consolas, monospace" font-size="10.5" font-weight="700">POSTGRES</text>
+    <text x="338" y="81" fill="#475569" font-family="'JetBrains Mono', 'Fira Code', 'SFMono-Regular', Consolas, monospace" font-size="9.5">Primary DB</text>
+
+    <!-- Node 4: Redis Cache -->
+    <rect x="326" y="128" width="88" height="50" rx="6" fill="#F8FAFC" stroke="#D97706" stroke-width="1.5" />
+    <text x="338" y="149" fill="#B45309" font-family="'JetBrains Mono', 'Fira Code', 'SFMono-Regular', Consolas, monospace" font-size="10.5" font-weight="700">REDIS</text>
+    <text x="338" y="165" fill="#475569" font-family="'JetBrains Mono', 'Fira Code', 'SFMono-Regular', Consolas, monospace" font-size="9.5">Cache / Queue</text>
+
+    <!-- Footer Metrics inside Blueprint -->
+    <line x1="16" y1="194" x2="416" y2="194" stroke="#CBD5E1" stroke-width="1" />
+    <text x="16" y="210" fill="#475569" font-family="'JetBrains Mono', 'Fira Code', 'SFMono-Regular', Consolas, monospace" font-size="10" font-weight="500">
+      latency: &lt;15ms p95   |   consistency: strict   |   mode: light
+    </text>
+  </g>
+</svg>
